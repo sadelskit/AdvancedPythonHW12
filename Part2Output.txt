@@ -1,0 +1,52 @@
+Select all authors' last names from the authors table in descending order.
+
+     last
+0    Wald
+1   Quirk
+2  Deitel
+3  Deitel
+4  Deitel
+
+Select all book titles from the titles table in ascending order.
+
+                              title
+0         Android 6 for Programmers
+1            Android How to Program
+2                  C How to Program
+3                C++ How to Program
+4     Internet & WWW How to Program
+5     Intro to Python for CS and DS
+6               Java How to Program
+7  Visual Basic 2012 How to Program
+8          Visual C# How to Program
+9         Visual C++ How to Program
+
+Use an INNER JOIN to select all the books for a specific author. Include the title, copyright year, and ISBN. Order the information alphabeticlaly by title.
+
+                              title   first    last copyright        isbn
+0         Android 6 for Programmers  Harvey  Deitel      2016  0134289366
+1            Android How to Program  Harvey  Deitel      2017  0134444302
+2                  C How to Program  Harvey  Deitel      2016  0133976890
+3                C++ How to Program  Harvey  Deitel      2017  0134448235
+4     Internet & WWW How to Program  Harvey  Deitel      2012  0132151006
+5     Intro to Python for CS and DS  Harvey  Deitel      2020  0135404673
+6               Java How to Program  Harvey  Deitel      2018  0134743350
+7  Visual Basic 2012 How to Program  Harvey  Deitel      2014  0133406954
+8          Visual C# How to Program  Harvey  Deitel      2017  0134601548
+9         Visual C++ How to Program  Harvey  Deitel      2008  0136151574
+
+Insert a new author into the authors table.
+
+        first    last
+id                   
+1        Paul  Deitel
+2      Harvey  Deitel
+3       Abbey  Deitel
+4         Dan   Quirk
+5   Alexander    Wald
+6        John     Doe
+
+Insert a new title for an author.
+
+   id        isbn              title  edition copyright
+0   6  0123456789  Sample Book Title        1      1970

@@ -1,0 +1,151 @@
+Viewing the authors Table's Contents
+
+        first    last
+id                   
+1        Paul  Deitel
+2      Harvey  Deitel
+3       Abbey  Deitel
+4         Dan   Quirk
+5   Alexander    Wald
+
+Looking at the titles Table
+
+         isbn                             title  edition copyright
+0  0135404673     Intro to Python for CS and DS        1      2020
+1  0132151006     Internet & WWW How to Program        5      2012
+2  0134743350               Java How to Program       11      2018
+3  0133976890                  C How to Program        8      2016
+4  0133406954  Visual Basic 2012 How to Program        6      2014
+5  0134601548          Visual C# How to Program        6      2017
+6  0136151574         Visual C++ How to Program        2      2008
+7  0134448235                C++ How to Program       10      2017
+8  0134444302            Android How to Program        3      2017
+9  0134289366         Android 6 for Programmers        3      2016
+
+Looking at the first few entries for author_ISBN
+
+   id        isbn
+0   1  0134289366
+1   2  0134289366
+2   5  0134289366
+3   1  0135404673
+4   2  0135404673
+
+Looking at first and last names from the authors table
+
+       first    last
+0       Paul  Deitel
+1     Harvey  Deitel
+2      Abbey  Deitel
+3        Dan   Quirk
+4  Alexander    Wald
+
+Using WHERE to select certain entries
+
+                           title  edition copyright
+0  Intro to Python for CS and DS        1      2020
+1            Java How to Program       11      2018
+2       Visual C# How to Program        6      2017
+3             C++ How to Program       10      2017
+4         Android How to Program        3      2017
+
+Using LIKE to select certain entries by pattern matching
+
+     first    last
+id                
+1     Paul  Deitel
+2   Harvey  Deitel
+3    Abbey  Deitel
+
+Using LIKE, part two
+
+    first    last
+id               
+3   Abbey  Deitel
+
+Using ORDER BY to sort the results
+
+                              title
+0         Android 6 for Programmers
+1            Android How to Program
+2                  C How to Program
+3                C++ How to Program
+4     Internet & WWW How to Program
+5     Intro to Python for CS and DS
+6               Java How to Program
+7  Visual Basic 2012 How to Program
+8          Visual C# How to Program
+9         Visual C++ How to Program
+
+Sorting by multiple columns
+
+        first    last
+id                   
+3       Abbey  Deitel
+2      Harvey  Deitel
+1        Paul  Deitel
+4         Dan   Quirk
+5   Alexander    Wald
+
+Sorting by multiple columns part 2
+
+        first    last
+id                   
+5   Alexander    Wald
+4         Dan   Quirk
+3       Abbey  Deitel
+2      Harvey  Deitel
+1        Paul  Deitel
+
+Combining WHERE and ORDER BY
+
+         isbn                             title  edition copyright
+0  0134444302            Android How to Program        3      2017
+1  0133976890                  C How to Program        8      2016
+2  0134448235                C++ How to Program       10      2017
+3  0132151006     Internet & WWW How to Program        5      2012
+4  0134743350               Java How to Program       11      2018
+5  0133406954  Visual Basic 2012 How to Program        6      2014
+6  0134601548          Visual C# How to Program        6      2017
+7  0136151574         Visual C++ How to Program        2      2008
+
+Using INNER JOIN to merge data
+
+    first    last        isbn
+0   Abbey  Deitel  0132151006
+1   Abbey  Deitel  0133406954
+2  Harvey  Deitel  0134289366
+3  Harvey  Deitel  0135404673
+4  Harvey  Deitel  0132151006
+
+Using the INSERT INTO statement
+
+        first    last
+id                   
+1        Paul  Deitel
+2      Harvey  Deitel
+3       Abbey  Deitel
+4         Dan   Quirk
+5   Alexander    Wald
+6         Sue     Red
+
+Using the UPDATE statement
+
+        first    last
+id                   
+1        Paul  Deitel
+2      Harvey  Deitel
+3       Abbey  Deitel
+4         Dan   Quirk
+5   Alexander    Wald
+6         Sue   Black
+
+Using the DELETE FROM statement
+
+        first    last
+id                   
+1        Paul  Deitel
+2      Harvey  Deitel
+3       Abbey  Deitel
+4         Dan   Quirk
+5   Alexander    Wald
